@@ -1,0 +1,15 @@
+.x{
+    background-color: red;
+    color: white;
+}
+.paragraphy2{
+    color:green;
+}
+h1, h2{
+    font-size: 30px;
+    color: blue;
+    border: 2px solid green;
+}
+h2{
+    text-decoration: underline;
+}

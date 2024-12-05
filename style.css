@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(37, 35, 35);
+}
+p{
+    background-color: 0;
+    
+    border: 2px solid chocolate;
+}
+h{
+    font-style: italic;
+    color: #ff6a50;
+}
+nav-bar {
+    display: flex;
+    background-color: #cc221c;
+    padding: 1px;
+    color: aliceblue;
+    justify-content: space-around;
+    list-style: none;
+}
+nav {
+    background-color: #8a1c1c;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    display: block;
+    color: #fff;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #f50b0b;
+}
+.continue-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0, 1);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.input[type="text"]
+.input[type="password"]{
+    width: 100;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+     border-radius: 4px;
+}
+button {
+    background-color: #cc221c;
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    border-radius: 20px;
+}
+.button:hover {
+    opacity: 0.8;
+}
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.remember-me input[type="checkbox"]{
+margin-right: 10px;
+}
+.forgot-password a {
+    color: #c92323;
+    text-decoration-line: none;
+}
+.login-container{
+    margin-left: 550px;
+    color: #fff;
+}
+.kl{
+    width: 38%;
+    height: 28px;
+    border-radius: 5px;
+}
+.acc{
+    align-content: center;
+}
+.now{
+    background-color: #e74123;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    
+}
+.search{
+    margin-right: 400px;
+}
+.a:visited{
+    color: yellowgreen;
+}
